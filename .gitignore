@@ -1,21 +1,49 @@
+release.properties
+pom.xml.releaseBackup
+*.orig
+
+# JRebel
+**/rebel-remote.xml
+**/rebel.xml
+
+# Eclipse
+**/.classpath
+**/.project
+**/.settings/
+
+# IntelliJ IDEA
+.idea/
+**/*.iml
+*.iws
+
+# Mac
+**/*.DS_Store
+
+# Maven
+**/log/
+**/target/
+
+# Npm & Bower
+**/bower_components/
+**/node_modules/
+
+# Sass
+**/.sass-cache
+
+# Liferay-Instant-Deploy
+**/package.json
+**/gulpfile.js
+/target/
+/bin/
+
 # compiled output
 /dist
 /tmp
 /out-tsc
 /build
-
-# dependencies
-/node_modules
-
-# IDEs and editors
-/.idea
-**/*.iml
-.project
-.classpath
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+.gradle/
+build/
+target/
 
 # IDE - VSCode
 .vscode/*
@@ -23,17 +51,3 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-
-# misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
-npm-debug.log
-yarn-error.log
-testem.log
-/typings
-
-# System Files
-.DS_Store
-Thumbs.db

@@ -20,7 +20,10 @@ export class AppComponent implements AfterViewInit {
 
         if (typeof Liferay != 'undefined') {
             Liferay.Loader.require('sample-senna-angular-parcours-bundle@1.0.0/app/navigation/Precedent', (NavigationPrecedent: any) => {
+
                 new NavigationPrecedent.default;
+
+                console.log(NavigationPrecedent.EtapesService.getEtapes());
             });
         }
     }

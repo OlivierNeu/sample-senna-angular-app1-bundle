@@ -27,8 +27,7 @@
     "features": {
       "js-extender": true,
       "web-context": "/sample-senna-angular-app1-bundle",
-      "localization": "features/localization/Language",
-      "configuration": "features/configuration.json"
+      "localization": "features/localization/Language"
     }
   },
   "verbose": true,

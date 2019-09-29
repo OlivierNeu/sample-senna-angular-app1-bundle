@@ -1,15 +1,12 @@
 import './polyfills';
 
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
-import { enableProdMode } from '@angular/core';
 
 import {AppComponent} from './app/app.component';
 import {AppModule} from './app/app.module';
 import {DynamicLoader} from './app/dynamic.loader';
 
 import LiferayParams from './types/LiferayParams';
-
-import { environment } from './environments/environment';
 
 /**
  * This is the actual method that initializes the portlet. It is invoked by the

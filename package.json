@@ -61,7 +61,7 @@
     "javax.portlet.name": "sample_senna_angular_app1_bundle",
     "javax.portlet.security-role-ref": "power-user,user",
     "javax.portlet.resource-bundle": "content.Language",
-    "com.liferay.portlet.css-class-wrapper": "load-widget sample-senna-angular-app1-bundle"
+    "com.liferay.portlet.css-class-wrapper": "load-widget sample-npm sample-senna-angular-app1-bundle"
   },
   "main": "index.js"
 }

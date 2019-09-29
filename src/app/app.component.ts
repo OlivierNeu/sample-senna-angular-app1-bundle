@@ -1,9 +1,9 @@
 import {AfterViewInit, Component} from '@angular/core';
 
 import LiferayParams from '../types/LiferayParams';
+import * as $ from 'jquery';
 
 declare const Liferay: any;
-import * as $ from 'jquery';
 
 @Component({
     selector: 'app-root',
@@ -28,8 +28,7 @@ export class AppComponent implements AfterViewInit {
     clicSuivant() {
 
         if (typeof Liferay != 'undefined') {
-            Liferay.Loader.require('sample-senna-angular-parcours-bundle' +
-                '@1.0.0/app/navigation/navigation',
+            Liferay.Loader.require('sample-senna-angular-parcours-bundle@1.0.0/app/navigation/navigation',
                 function (navigation: any) {
                     (function () {
 

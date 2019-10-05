@@ -3,7 +3,6 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import {APP_BASE_HREF} from '@angular/common';
 
 import {AppComponent} from './app.component';
-import {LanguageService} from "../services/languageService";
 
 @NgModule({
   imports: [
@@ -16,7 +15,6 @@ import {LanguageService} from "../services/languageService";
     AppComponent
   ],
   providers: [
-    LanguageService,
     {provide: APP_BASE_HREF, useValue: '/'}
   ],
   schemas: [

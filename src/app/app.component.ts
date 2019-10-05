@@ -28,6 +28,8 @@ export class AppComponent implements AfterViewInit {
                 new NavigationPrecedent.default;
 
                 console.log(NavigationPrecedent.EtapesService.getEtapes());
+                console.log(NavigationPrecedent.EtapesService.isFirstStep());
+                console.log(NavigationPrecedent.EtapesService.isLastStep());
             });
         }
     }
